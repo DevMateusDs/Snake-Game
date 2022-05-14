@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image: url(https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2019/02/fundo-quadriculado-preto-branco2.gif?fit=696%2C522&ssl=1);
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.titulo{
+    color: white;
+    display: flex;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    padding-top: 50px;
+}
+.tabuleiro{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
